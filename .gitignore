@@ -1,0 +1,3 @@
+/data/certbot
+node_modules
+.env

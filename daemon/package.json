@@ -1,0 +1,26 @@
+{
+  "name": "daemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js -w src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@fidm/x509": "^1.2.1",
+    "axios": "^0.19.2",
+    "glob": "^7.1.6",
+    "lodash": "^4.17.15",
+    "moment": "^2.27.0",
+    "nginx-config-parser": "^0.1.1",
+    "node-docker-api": "^1.1.22",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.4"
+  },
+  "type": "module"
+}
