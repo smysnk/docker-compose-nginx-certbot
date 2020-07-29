@@ -18,6 +18,7 @@ services:
       - ./data/certbot/www:/var/www/certbot
     entrypoint: "/bin/sh -c 'while :; do sleep 6h; done'"
   daemon:
+    image: sammysnake/nginx-certbox-daemon
     build: ./daemon
     restart: unless-stopped
     volumes:
