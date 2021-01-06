@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@fidm/x509": "^1.2.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "glob": "^7.1.6",
     "lodash": "^4.17.19",
     "moment": "^2.27.0",
